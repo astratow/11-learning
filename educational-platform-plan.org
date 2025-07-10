@@ -1,0 +1,86 @@
+* Educational Platform MVP - 11+ Prep
+** Project Setup
+- [ ] Initialize Laravel project
+- [ ] Setup Vue 3 with Vite
+- [ ] Install and configure TailwindCSS
+- [ ] Setup SQLite for local development
+- [ ] Setup Git repository and .gitignore
+- [ ] Configure basic routing (home, login, register, dashboard)
+- [ ] Setup Laravel Breeze or Jetstream (auth scaffolding)
+- [ ] Setup environment config (.env)
+
+** User Roles & Authentication
+- [ ] Define roles: admin, teacher, student, parent
+- [ ] Create role-based middleware in Laravel
+- [ ] Implement user registration with role selection
+- [ ] Associate students with parents and teachers
+- [ ] Create login and logout functionality
+- [ ] Setup dashboard views for each role
+- [ ] Role-based access control for routes and views
+
+** Quiz/Test Engine (Core Feature)
+- [ ] Create models: Quiz, Question, Answer, Attempt
+- [ ] Define relationships: quizzes have many questions, etc.
+- [ ] Implement UI to create new quizzes (Vue form)
+- [ ] Allow multiple choice, true/false, written answers
+- [ ] Validate and save questions to database
+- [ ] Display quiz to student (one page or step-by-step)
+- [ ] Store results and answers on submission
+- [ ] Show results summary with explanations
+
+** Quiz Builder (Advanced)
+- [ ] Drag-and-drop interface for teachers/admins
+- [ ] Ability to group questions by topic/difficulty
+- [ ] Preview quiz before publishing
+- [ ] Draft/publish quiz status
+- [ ] Assign quizzes to students or classes
+
+** Admin & Content Management
+- [ ] Admin dashboard with stats (quizzes, users, activity)
+- [ ] CRUD for quizzes, questions, and users
+- [ ] Import/export questions via CSV/JSON
+- [ ] Tagging/categorization system
+- [ ] Global settings management
+
+** Games Module (Initial)
+- [ ] Select simple game concepts (e.g. math race, vocab match)
+- [ ] Build reusable game components in Vue
+- [ ] Integrate with points/reward system
+- [ ] Store game scores and attempts
+- [ ] Leaderboards per game
+
+** Reward System
+- [ ] Points awarded for quizzes, games, logins
+- [ ] Student wallet model (points balance)
+- [ ] Badge system for milestones (e.g., 5 quizzes completed)
+- [ ] Rewards store (avatars, themes, etc.)
+- [ ] Admin tool to modify points
+
+** Frontend Design & UX
+- [ ] Design main layout with TailwindCSS
+- [ ] Mobile-first design approach
+- [ ] Custom avatars for students
+- [ ] Interactive dashboard for students (XP, progress, badges)
+- [ ] Visual feedback on quiz/game completion
+
+** Testing & QA
+- [ ] PHPUnit tests for models/controllers
+- [ ] Vue component testing
+- [ ] Test quiz creation flow (admin/teacher)
+- [ ] Test quiz taking flow (student)
+- [ ] Test reward assignment
+- [ ] Browser compatibility testing
+
+** Deployment & Scaling
+- [ ] Docker setup for development
+- [ ] Switch to MySQL or PostgreSQL for staging
+- [ ] Use Laravel Forge, Ploi, or manual VPS setup
+- [ ] CI/CD with GitHub Actions or GitLab CI
+- [ ] Setup backups and logs monitoring
+
+** Future Features
+- [ ] Adaptive quizzes (based on past scores)
+- [ ] Group/class assignments for teachers
+- [ ] Parent report dashboards and notifications
+- [ ] Multiplayer quiz battles
+- [ ] AI question suggestions or generation

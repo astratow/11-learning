@@ -1,0 +1,71 @@
+
+* 11+ Learning Platform - Laravel Project
+
+** Phase 0: Project Setup
+*** TODO Set up Laravel project with Breeze or Jetstream
+*** TODO Configure database (MySQL/PostgreSQL)
+*** TODO Set up version control (Git + GitHub)
+*** TODO Set up local dev environment (Valet/XAMPP/Docker)
+
+** Phase 1: Core User System
+*** TODO Create user registration and login system
+*** TODO Create user roles (Admin, Student)
+*** TODO Build student dashboard (view available quizzes)
+*** TODO Build admin dashboard (manage quizzes & questions)
+
+** Phase 2: Quiz Management (Admin)
+*** TODO Create category/tag system (Math, English, Verbal)
+*** TODO Create CRUD for quizzes
+*** TODO Create CRUD for questions (MCQ)
+*** TODO Add support for options and correct answer
+*** TODO Implement import tool for bulk question entry (optional CSV)
+
+** Phase 3: Quiz Taking System (Student)
+*** TODO Display quizzes with pagination or one-question-at-a-time
+*** TODO Add timer for quizzes (optional)
+*** TODO Validate and submit answers
+*** TODO Calculate and store quiz score
+*** TODO Show feedback/result after quiz submission
+
+** Phase 4: Progress Tracking
+*** TODO Store completed quiz history
+*** TODO Display user’s performance history (chart/table)
+*** TODO Show breakdown by category/topic
+*** TODO Add streak tracking or recent activity list
+
+** Phase 5: Gamification System
+*** TODO Add XP and points for quiz completion
+*** TODO Design and award badges for milestones
+*** TODO Display level and progress bar on dashboard
+*** TODO Optional: Add leaderboard system (local or global)
+
+** Phase 6: LMS Features
+*** TODO Add “lessons” section (articles, resources, videos)
+*** TODO Link quizzes to lessons
+*** TODO Add progress tracking per lesson
+*** TODO Allow resuming paused quizzes
+*** TODO Support locked content (based on completion or points)
+
+** Phase 7: Admin Tools
+*** TODO Manage users (view, ban, reset password)
+*** TODO Manage quiz results
+*** TODO Export reports (PDF or CSV)
+*** TODO Optional: Create roles/permissions with Laravel Permission package
+
+** Phase 8: UI/UX Polish
+*** TODO Make responsive design (mobile-friendly)
+*** TODO Add dashboard widgets (last quiz, current level, etc.)
+*** TODO Add animations (with Livewire or Alpine.js)
+*** TODO Improve quiz UI (highlight selected, progress bar)
+
+** Phase 9: Deployment
+*** TODO Choose deployment platform (Forge, Vercel, DigitalOcean)
+*** TODO Set up production database and environment
+*** TODO Set up HTTPS and domain
+*** TODO Add monitoring/logging (e.g., Laravel Telescope, Sentry)
+
+** Phase 10: Future Features (Optional / Stretch Goals)
+*** TODO Add LLM integration for smart hints and explanations
+*** TODO Add payment gateway (Stripe) for premium content
+*** TODO Mobile app version with Laravel API backend
+*** TODO Add parental dashboard to monitor student progress
